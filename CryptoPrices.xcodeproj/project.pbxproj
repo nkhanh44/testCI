@@ -452,7 +452,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)CryptoPrices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/CryptoPrices";
 			};
 			name = "Debug Staging";
 		};
@@ -581,7 +581,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)CryptoPrices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/CryptoPrices";
 			};
 			name = "Release Staging";
 		};
@@ -805,7 +805,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)CryptoPrices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/CryptoPrices";
 			};
 			name = Debug;
 		};
@@ -825,7 +825,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)CryptoPrices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/CryptoPrices";
 			};
 			name = Release;
 		};
