@@ -423,6 +423,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.nimblehq.crypto-prices.staging";
+				PRODUCT_MODULE_NAME = CryptoPrices;
 				PRODUCT_NAME = "$(TARGET_NAME) Staging";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -449,10 +450,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.nimblehq.crypto-prices-tests.staging";
 				PRODUCT_NAME = CryptoPricesTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG STAGING";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPricesStaging.app/CryptoPricesStaging";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices Staging.app/CryptoPrices Staging";
 			};
 			name = "Debug Staging";
 		};
@@ -553,6 +555,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.nimblehq.crypto-prices.staging";
+				PRODUCT_MODULE_NAME = CryptoPrices;
 				PRODUCT_NAME = "$(TARGET_NAME) Staging";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc co.nimblehq.crypto-prices.staging";
@@ -581,7 +584,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPricesStaging.app/CryptoPricesStaging";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices Staging.app/CryptoPrices Staging";
 			};
 			name = "Release Staging";
 		};
@@ -741,6 +744,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.nimblehq.crypto-prices";
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -777,6 +781,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.nimblehq.crypto-prices";
+				PRODUCT_MODULE_NAME = CryptoPrices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc co.nimblehq.crypto-prices";
