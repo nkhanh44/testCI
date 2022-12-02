@@ -454,7 +454,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/CryptoPrices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices Staging.app/CryptoPrices Staging";
 			};
 			name = "Debug Staging";
 		};
@@ -584,7 +584,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices.app/CryptoPrices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrices Staging.app/CryptoPrices Staging";
 			};
 			name = "Release Staging";
 		};
