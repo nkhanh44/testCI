@@ -2,7 +2,9 @@
 
 source "https://rubygems.org"
 
-# fastlane is the easiest way to automate beta deployments and releases for your iOS and Android apps. 
+# fastlane is the easiest way to automate beta deployments and releases for your iOS and Android apps.
+
+gem "cocoapods"
 gem "fastlane"
 
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
